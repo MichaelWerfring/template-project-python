@@ -1,6 +1,22 @@
 # [PROJECT TITLE]
 
-## Getting Started
+## Initial Setup
+
+Follow these steps to set up your local development environment.
+
+**On Windows:**
+
+```bash
+setup/windows.bat
+```
+
+**On Mac/Linux:**
+
+```bash
+setup/linux.sh
+```
+
+## Using existing Code
 
 ```bash
 # Pull latest code:
@@ -28,6 +44,7 @@ pip freeze > requirements.txt
 
 Please place your files in the correct directories to keep the repository organized:
 
+-   `/setup` - Scripts for inital setup
 -   `/notebooks` - Jupyter notebooks
 -   `/src` - Larger utility functions (e.g., utils.py)
 -   `/test` - Unit tests and validation scripts
